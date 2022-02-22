@@ -12,9 +12,9 @@ export default function Users(props) {
       <h1>halo</h1>
       {dataUsers.map((user, index) => {
         return (
-          <div onClick={() => router.push(`/users/${user.id}`)} style={{cursor: 'pointer'}}>
+          <div key={index} onClick={() => router.push(`/users/${user.id}`)} style={{cursor: 'pointer'}}>
 
-            <p key={index}>{user.name} <span style={{ fontWeight: 700 }}>{user.email}</span></p>
+            <p >{user.name} <span style={{ fontWeight: 700 }}>{user.email}</span></p>
           </div>
         );
 
