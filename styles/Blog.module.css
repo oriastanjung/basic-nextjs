@@ -1,0 +1,7 @@
+.card{
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 90%;
+    box-shadow: 10px 10px 4px 10px rgb(75, 74, 74);
+    padding: 80px;
+}
